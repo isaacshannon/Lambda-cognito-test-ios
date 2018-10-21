@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A4A6100019BDC8D771ED86F /* Pods_lambda_testerooUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C58795873A9E6EE32352358 /* Pods_lambda_testerooUITests.framework */; };
+		4BE7D3E4A3C0F1EA78E62F30 /* Pods_lambda_testerooTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687CA072DADA3269A8762984 /* Pods_lambda_testerooTests.framework */; };
 		6A095F87217BE10B00DACA70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A095F86217BE10B00DACA70 /* AppDelegate.swift */; };
 		6A095F89217BE10B00DACA70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A095F88217BE10B00DACA70 /* ViewController.swift */; };
 		6A095F8C217BE10B00DACA70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A095F8A217BE10B00DACA70 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		6A095F91217BE10E00DACA70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A095F8F217BE10E00DACA70 /* LaunchScreen.storyboard */; };
 		6A095F9C217BE10E00DACA70 /* lambda_testerooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A095F9B217BE10E00DACA70 /* lambda_testerooTests.swift */; };
 		6A095FA7217BE10E00DACA70 /* lambda_testerooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A095FA6217BE10E00DACA70 /* lambda_testerooUITests.swift */; };
+		6A2363F3217BE6C000D8CA33 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6A2363F2217BE6C000D8CA33 /* Podfile */; };
+		FC6B3F86227A737000081881 /* Pods_lambda_testeroo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635A97EADC6F2E2A99D197A4 /* Pods_lambda_testeroo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C58795873A9E6EE32352358 /* Pods_lambda_testerooUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lambda_testerooUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C6885347BC6FDCD53C0084 /* Pods-lambda-testerooTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lambda-testerooTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lambda-testerooTests/Pods-lambda-testerooTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58340AE07BC7005F19041380 /* Pods-lambda-testeroo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lambda-testeroo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lambda-testeroo/Pods-lambda-testeroo.debug.xcconfig"; sourceTree = "<group>"; };
+		635A97EADC6F2E2A99D197A4 /* Pods_lambda_testeroo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lambda_testeroo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		687CA072DADA3269A8762984 /* Pods_lambda_testerooTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lambda_testerooTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A095F83217BE10B00DACA70 /* lambda-testeroo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lambda-testeroo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A095F86217BE10B00DACA70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A095F88217BE10B00DACA70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,11 @@
 		6A095FA2217BE10E00DACA70 /* lambda-testerooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lambda-testerooUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A095FA6217BE10E00DACA70 /* lambda_testerooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lambda_testerooUITests.swift; sourceTree = "<group>"; };
 		6A095FA8217BE10E00DACA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A2363F2217BE6C000D8CA33 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9700695B5920A670B4BF0BBF /* Pods-lambda-testerooUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lambda-testerooUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lambda-testerooUITests/Pods-lambda-testerooUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A9AF5A9284496DDFBD6BF38 /* Pods-lambda-testerooUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lambda-testerooUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lambda-testerooUITests/Pods-lambda-testerooUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C670095B9720A1FB3225E8FE /* Pods-lambda-testerooTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lambda-testerooTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lambda-testerooTests/Pods-lambda-testerooTests.release.xcconfig"; sourceTree = "<group>"; };
+		D80BF31AAEC157C441EF3786 /* Pods-lambda-testeroo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lambda-testeroo.release.xcconfig"; path = "Pods/Target Support Files/Pods-lambda-testeroo/Pods-lambda-testeroo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC6B3F86227A737000081881 /* Pods_lambda_testeroo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BE7D3E4A3C0F1EA78E62F30 /* Pods_lambda_testerooTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A4A6100019BDC8D771ED86F /* Pods_lambda_testerooUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +94,13 @@
 		6A095F7A217BE10B00DACA70 = {
 			isa = PBXGroup;
 			children = (
+				6A2363F2217BE6C000D8CA33 /* Podfile */,
 				6A095F85217BE10B00DACA70 /* lambda-testeroo */,
 				6A095F9A217BE10E00DACA70 /* lambda-testerooTests */,
 				6A095FA5217BE10E00DACA70 /* lambda-testerooUITests */,
 				6A095F84217BE10B00DACA70 /* Products */,
+				8A8356D8F08DCDE191DE28C0 /* Pods */,
+				8D960714B77D59B365001697 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +145,29 @@
 			path = "lambda-testerooUITests";
 			sourceTree = "<group>";
 		};
+		8A8356D8F08DCDE191DE28C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58340AE07BC7005F19041380 /* Pods-lambda-testeroo.debug.xcconfig */,
+				D80BF31AAEC157C441EF3786 /* Pods-lambda-testeroo.release.xcconfig */,
+				54C6885347BC6FDCD53C0084 /* Pods-lambda-testerooTests.debug.xcconfig */,
+				C670095B9720A1FB3225E8FE /* Pods-lambda-testerooTests.release.xcconfig */,
+				9A9AF5A9284496DDFBD6BF38 /* Pods-lambda-testerooUITests.debug.xcconfig */,
+				9700695B5920A670B4BF0BBF /* Pods-lambda-testerooUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D960714B77D59B365001697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				635A97EADC6F2E2A99D197A4 /* Pods_lambda_testeroo.framework */,
+				687CA072DADA3269A8762984 /* Pods_lambda_testerooTests.framework */,
+				4C58795873A9E6EE32352358 /* Pods_lambda_testerooUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A095FAB217BE10E00DACA70 /* Build configuration list for PBXNativeTarget "lambda-testeroo" */;
 			buildPhases = (
+				D477DAE2DB475FE93218547C /* [CP] Check Pods Manifest.lock */,
 				6A095F7F217BE10B00DACA70 /* Sources */,
 				6A095F80217BE10B00DACA70 /* Frameworks */,
 				6A095F81217BE10B00DACA70 /* Resources */,
+				A7F694AF74FF7CF3CF6AA2ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A095FAE217BE10E00DACA70 /* Build configuration list for PBXNativeTarget "lambda-testerooTests" */;
 			buildPhases = (
+				E6AEF0FA524C5A35BC57DFB3 /* [CP] Check Pods Manifest.lock */,
 				6A095F93217BE10E00DACA70 /* Sources */,
 				6A095F94217BE10E00DACA70 /* Frameworks */,
 				6A095F95217BE10E00DACA70 /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A095FB1217BE10E00DACA70 /* Build configuration list for PBXNativeTarget "lambda-testerooUITests" */;
 			buildPhases = (
+				0D6E5BECBB8101232A4B8751 /* [CP] Check Pods Manifest.lock */,
 				6A095F9E217BE10E00DACA70 /* Sources */,
 				6A095F9F217BE10E00DACA70 /* Frameworks */,
 				6A095FA0217BE10E00DACA70 /* Resources */,
@@ -231,6 +278,7 @@
 			files = (
 				6A095F91217BE10E00DACA70 /* LaunchScreen.storyboard in Resources */,
 				6A095F8E217BE10E00DACA70 /* Assets.xcassets in Resources */,
+				6A2363F3217BE6C000D8CA33 /* Podfile in Resources */,
 				6A095F8C217BE10B00DACA70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +298,101 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D6E5BECBB8101232A4B8751 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lambda-testerooUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F694AF74FF7CF3CF6AA2ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-lambda-testeroo/Pods-lambda-testeroo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSLambda/AWSLambda.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLambda.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lambda-testeroo/Pods-lambda-testeroo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D477DAE2DB475FE93218547C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lambda-testeroo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6AEF0FA524C5A35BC57DFB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lambda-testerooTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6A095F7F217BE10B00DACA70 /* Sources */ = {
@@ -430,6 +573,7 @@
 		};
 		6A095FAC217BE10E00DACA70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58340AE07BC7005F19041380 /* Pods-lambda-testeroo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +592,7 @@
 		};
 		6A095FAD217BE10E00DACA70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D80BF31AAEC157C441EF3786 /* Pods-lambda-testeroo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +611,7 @@
 		};
 		6A095FAF217BE10E00DACA70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C6885347BC6FDCD53C0084 /* Pods-lambda-testerooTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +633,7 @@
 		};
 		6A095FB0217BE10E00DACA70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C670095B9720A1FB3225E8FE /* Pods-lambda-testerooTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +655,7 @@
 		};
 		6A095FB2217BE10E00DACA70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A9AF5A9284496DDFBD6BF38 /* Pods-lambda-testerooUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +676,7 @@
 		};
 		6A095FB3217BE10E00DACA70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9700695B5920A670B4BF0BBF /* Pods-lambda-testerooUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
